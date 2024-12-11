@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<!-- linking css code -->
+	<link rel="stylesheet" href="calculator.css">
+	<title>
+		Calculator
+	</title>
+	<body>
+		<!-- outer gray box containing rest of the elements-->
+		<div id = "outDiv">
+			<!-- box showing the output -->
+			<div id = "inDiv"></div>
+			<!-- buttons with the numbers the equal sign and the operations -->
+			<button onclick = "buttonWhenClicked(this)"> 1 </button>
+			<button onclick = "buttonWhenClicked(this)"> 2 </button>
+			<button onclick = "buttonWhenClicked(this)"> 3 </button>
+			<br><br>
+			<button onclick = "buttonWhenClicked(this)"> 4 </button>
+			<button onclick = "buttonWhenClicked(this)"> 5 </button>
+			<button onclick = "buttonWhenClicked(this)"> 6 </button>
+			<br><br>
+			<button onclick = "buttonWhenClicked(this)"> 7 </button>
+			<button onclick = "buttonWhenClicked(this)"> 8 </button>
+			<button onclick = "buttonWhenClicked(this)"> 9 </button>
+			<br><br>
+			<button onclick = "buttonWhenClicked(this)" id = "num0"> 0 </button>
+			<button onclick = "buttonCWhenClicked(this)"> C </button>
+			<button onclick = "buttonResultWhenClicked(this)"> = </button>
+			<br><br>
+			<button onclick = buttonOperatorWhenClicked(this)> + </button>
+			<button onclick = buttonOperatorWhenClicked(this)> - </button>
+			<button onclick = buttonOperatorWhenClicked(this)> * </button>
+			<button onclick = buttonOperatorWhenClicked(this)> / </button>
+		</div>
+        
+        
+        
+        <!-- linking js code -->
+		<script src = "calculator.js"></script>
+	</body>
+</html>
