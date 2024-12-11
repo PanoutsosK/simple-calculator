@@ -5,7 +5,6 @@ document.getElementsByTagName("div")[1].innerHTML = 0;
 var count = 0;
 var number = 0;
 var number2 = 0;
-var currentclicked;
 var operation;
 
 //When each button containing a number is clicked
